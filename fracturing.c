@@ -13,7 +13,7 @@ double calculateWidth();
 double calculateHeight();
 double askForUserInput();
 
-int main( argc, char **argv) {
+int main( argc, )char **argv) {
     calculateDistance();
     calculatePerimeter();
     calculateArea();
@@ -57,7 +57,7 @@ double calculateArea() {
     double area = pow(distance, 2);
 
     //print out
-    print("The area of the city encompassed by your request is %.2f\n", area);
+    printf("The area of the city encompassed by your request is %.2f\n", area);
 
     // level of difficulty
     return 5.0;

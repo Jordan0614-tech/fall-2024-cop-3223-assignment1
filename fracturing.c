@@ -41,16 +41,16 @@ double calculateDistance() {
 
     return distance;
 }
-
-double calulatePerimeter() {
-    // Use the perimeter to to get to the distance used google to help get it to work
+// used ai to explain that 'undefined reference' was because i missed a C in calculate
+double calculatePerimeter() {
+    // Use the perimeter to  get to the distance, used google to help get it to work
     double distance = calculateDistance();
     double perimeter = 4 * distance;
 //print out
 printf("The perimeter of the city encompassed by your request is %.2f\n", perimeter);
 
 //return difficulty of code
-return 2.0;
+return perimeter;
 }
 
 double calculateArea() {

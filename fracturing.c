@@ -15,7 +15,7 @@ double calculateHeight();
 double askForUserInput();
 
 //from pdf. use values as arguments
-int main( argv char **argv) {
+int main( int argc, char **argv) {
     calculateDistance();
     calculatePerimeter();
     calculateArea();
@@ -43,7 +43,7 @@ double calculateDistance() {
 }
 
 double calulatePerimeter() {
-    // Use the perimeter to to get to the distance
+    // Use the perimeter to to get to the distance used google to help get it to work
     double distance = calculateDistance();
     double perimeter = 4 * distance;
 //print out
@@ -95,7 +95,7 @@ double calculateHeight() {
 
     return 4.0;
 }
-
+//include -lm in terminal
 // attempts at bonus lol
 double askForUserInput() {
     double value;

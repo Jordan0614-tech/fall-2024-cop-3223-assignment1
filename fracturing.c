@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include<math.h>
+//instuctions say define for PI
 #define PI 3.14159
 
 // functions
@@ -13,7 +14,8 @@ double calculateWidth();
 double calculateHeight();
 double askForUserInput();
 
-int main( argc, )char **argv) {
+//from pdf. use values as arguments
+int main( argv char **argv) {
     calculateDistance();
     calculatePerimeter();
     calculateArea();
@@ -59,8 +61,8 @@ double calculateArea() {
     //print out
     printf("The area of the city encompassed by your request is %.2f\n", area);
 
-    // level of difficulty
-    return 5.0;
+    // level of difficulty, used friend in IT 's help for lines 58-73
+    return 3.0;
 }
 double calculateWidth() {
     //width get inputs
@@ -75,7 +77,7 @@ double calculateWidth() {
     printf("Point #2 entered: x2 = %.2f; y2 = %.2f\n", x2, y2);
     printf("The width of the city encompassed by your request is %.2f\n", width);
 
-    return 3.0;
+    return 4.0;
 }
 
 //height
